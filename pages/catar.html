@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Catar</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body style="background-color: #680a26;" link="white" vlink="white">
+    <!--navbar-->
+    <nav class="navbar col-12 position-fixed navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid col-11 m-auto">
+            <a class="navbar-brand" href="#">
+                <img src="https://freepngimg.com/download/java/85390-java-language-text-programming-logo-programmer.png"
+                    width="60" height="35" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/brasil.html">Brasil na Copa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/catar.html">Sobre o Catar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/jogo.html">Jogo da Memória</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <!--cards-->
+    <br>
+    <hr style="color: white;">
+    <div align="center">
+        <p>
+            <font  size="6" color="white"><b style="font-family: 'Press Start 2P', cursive ;">História de Doha, capital do Catar</b>
+            </font>
+            <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWYAAACNCAMAAACzDCDRAAAAkFBMVEWNGz3///+JADKHAC2DACKLETiIADCFACiMFjqEACWDACCLEzmGACuDACOKCjWCAB24g4+9jZjw5efJo6z8+fqoYnOtbn317vCZPlbBlJ7dxsu1fYqwdILOrLT59PXWu8Hj0NTq3N+iVWiRJ0WbRVvawcemXW/FnKXhzdJ+AAqVM06AABXRsrnz6uyeTGHNqbFpVFDuAAADlElEQVR4nO2dW3YaQQxEEY9gCAN4gGAPMcYEG8eBsP/dpXv4SM8CVPqoujvgnjlCrZbUPYOwf/0xGPcferRgNGcOj7+qb9+jf28QOM2JenWaDkbRPzkCqObE/rIZz+bRvxoOWnOm2fXZAnWEZuML1EGarQ3UC5pAHac5sX7fkHiOtJyyaZYIHea4Xv2dDmhSjhjH7T8gSbxowStev/+ky+fQmrcvHxPC0wlU89v5aUiTwnWBOf5cPkz6RAeSLhjH9cfvBVs47oDRnOsYowmxaJTmxNvz15AqiysAak7Ut+OQ50xSgNVs7Ql7NpuzhQ+45kyzZAvUIZqtDdRTokAdpTlxvR0rFtGBmhN71ZvdyfUNEstxsfn8pNjszOeyR1bfgCtep7yZrtwM1pySC6KbqQKgY9U03FkTdhqVYCzXmz+qN0NI2UXFlV2UwDTbPVfWXSCCdPKrGFMNsGZr+zT4BiTwmjOHR7JAHaM5UVMF6jDNie1lwxI7IjWnQ4vqzd7Uub5BYjlKM1t9I8Jxs5uTXWxHzAVO+No0NOWKAeeYbRSwA0bx/qINBAjNr4TzJiUYzRm66akSnGZjmwUsgWq2NqGrCEep0JozhNevEZotH7a5AnWQZmsDNc+UYJxm06IHDNuLFj14U59PPDEjctEDU30Dr1gNBP5cXzg7b5GOyQYhSmCO20UPZKHiPxjHWvQAgvtjxg5F0IZm/IjPgjHRCBlYG9OlzVHjl2zrpUI0231ZGlGgjtJseUDiOGYRHajZtOgBgb5mfxSb/VGm4Y7yZn90CvRHNQ1/VKEDoHozCu7PGabZdBeIY6ubbRDq04ChriMU6qFDoY5QDOpv9qe+qVvfG82e+KNJKnc0F+iPplz90cy2O9pAgNGsfRoo6OoYJTjNpl1HOLS5C0azm7MF6gjNpq2KOK7aEQpCG28RaH+zP9pG7o9267ujBgJ/9O6JP3rFx58D3YuXJRjHemENg94LhMFWxygBaja95YpDLxPD0DvbKMgGJKI0W3sinLCIDtRsWvSAIKUdFYnluNj8/KXY7EyzHJGNYsIV57yZr1ED67i+HYc6BfqimoY/zY4tHHfASNaiBxR8a6RKYJrtvhRNd4EIch2DcJAqpk+D774KrzlDNyARo9nYZgTDNFseY9OiBwRa9OBPvTotaNK7IMds/4ERjgk7kNCK95fNmPB8AnWsKVd/2MJxB4zilCHzDUIU/ANn53goRLf8dwAAAABJRU5ErkJggg==">
+        </p>
+    </div>
+    <hr style="color: white;">
+    <div align="justify">
+        <p>
+            <font face="Georgia" size="4" color="white">
+                Um século atrás, em 1922, este pequeno Estado do Golfo Pérsico de três milhões de habitantes e menos de
+                12.000 km² era uma terra praticamente desabitada — um <br> humilde assentamento de pescadores e
+                catadores de
+                pérolas, no qual a maioria dos moradores eram nômades viajantes dos vastos desertos da Península
+                Arábica.
+                <br>
+                <br>
+                Apenas alguns cidadãos com mais de 90 anos poderiam se lembrar hoje das terríveis dificuldades
+                econômicas enfrentadas nas décadas de 1930 e 1940, depois que <br>os japoneses inventaram o cultivo de
+                pérolas, as produziram em massa e arruinaram efetivamente a economia do Catar.
+                <br>
+                <br>
+                Naquela década, o Catar perdeu até 30% da sua população, que partiu em busca de oportunidades no
+                exterior. Dez anos depois, em 1950, não havia mais de 24 mil <br> habitantes, de acordo com a
+                Organização das
+                Nações Unidas (ONU).
+                <br>
+                <br>
+                Mas a economia do país estava prestes a dar uma virada radical. Eles haviam encontrado seu milagre: uma
+                das maiores reservas de petróleo do mundo. Foi o ponto <br>de partida para encher os cofres do Catar em
+                um
+                ritmo frenético a partir da segunda metade do século 20, e seus moradores se tornarem alguns dos
+                cidadãos <br>mais ricos do mundo.
+                <br>
+                <br>
+                <div>
+                    <b>As três mudanças que transformaram este país em um dos mais ricos do planeta</b>
+            </font>
+            <!--Imagens em Cards-->
+        <div class="card-group">
+            <div class="card">
+                <img src="https://ichef.bbci.co.uk/news/800/cpsprodpb/0B11/production/_127633820_gettyimages-1204723209.jpg.webp"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">1. A descoberta do petróleo em 1939</h5>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://ichef.bbci.co.uk/news/800/cpsprodpb/A751/production/_127633824_gettyimages-50370865.jpg.webp"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">2. A descoberta de gás natural</h5>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://ichef.bbci.co.uk/news/800/cpsprodpb/17343/production/_127634059_gettyimages-1244480392.jpg.webp"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">3. O golpe palaciano de 1995</h5>
+                </div>
+            </div>
+        </div>
+        </p>
+    </div>
+    <br>
+    <hr style="color: white;">
+    <div align="center">
+        <font face="Georgia" size="6" color="white">
+            <b>Informações da Copa 2022</b>
+        </font>
+    </div>
+    <hr style="color: white;">
+    <br>
+    <!--Cards-->
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+            <div class="card">
+                <img src="https://img.olhardigital.com.br/wp-content/uploads/2022/07/bola-copa-22.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Bola da Copa</h5>
+                    <p class="card-text" align="justify">
+                        A bola da Copa do Mundo de 2022 é a Al Rihla. O nome significa “a viagem” em árabe.
+                        <br>
+                        A bola da Copa de 2022 custa R$ 179,99 em uma versão de treinamento, R$ 249,99 em uma versão
+                        liga e R$ 999,99 na versão Pro.
+                        <br>
+                        Há também a minibola, que custa apenas R$ 99,99.
+
+                        <br>
+                        <br>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--card2-->
+        <div class="col">
+            <div class="card">
+                <img src="https://www.remessaonline.com.br/blog/wp-content/uploads/2022/11/mascote-copa-2022-1024x683.jpg.webp"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Mascote da Copa</h5>
+                    <p class="card-text" align="justify">
+                        O mascote da Copa do Mundo FIFA 2022 foi apresentado durante o sorteio dos grupos, no início do
+                        ano, e foi batizado La'eeb. De acordo com a organização, o nome significa “jogador
+                        super-habilidoso” em árabe. É um personagem inspirado no lenço usado na cabeça das pessoas do
+                        mundo árabe.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--card3-->
+        <div class="col">
+            <div class="card">
+                <img src="https://pbs.twimg.com/media/FPRoDE3XoAUsuCm?format=jpg&name=large" class="card-img-top"
+                    alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Grupos da Copa do Mundo 2022</h5>
+                    <p class="card-text">
+                </div>
+            </div>
+        </div>
+        <!--card4-->
+        <div class="col">
+            <div class="card">
+                <img src="https://tm.ibxk.com.br/2022/09/01/01104517016023.jpg?ims=1200x675" class="card-img-top"
+                    alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">10 Seleções Favoritas a Vencer</h5>
+                    <p class="card-text">
+                    <table align="center">
+                        <tr>
+                            <td>
+                                <img src="../img/brasil.png" width="100">
+                            </td>
+                            <td>
+                                <img src="../img/belgica.png" width="100">
+                            </td>
+                            <td>
+                                <img src="../img/argentina.png" width="100">
+                            </td>
+                            <td>
+                                <img src="../img/franca.png" width="100">
+                            </td>
+                            <td>
+                                <img src="../img/inglaterra.png" width="100">
+                            </td>
+                        </tr>
+                        <tr align="center">
+                            <td>Brasil </td>
+                            <td>Bélgica </td>
+                            <td>Argentina </td>
+                            <td>França </td>
+                            <td>Inglaterra </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="../img/espanha.png" width="100">
+                            </td>
+                            <td>
+                                <img src="../img/holanda.png" width="100">
+                            </td>
+                            <td>
+                                <img src="../img/portugal.png" width="100">
+                            </td>
+                            <td>
+                                <img src="../img/dinamarca.png" width="100">
+                            </td>
+                            <td>
+                                <img src="../img/uruguai.png" width="100">
+                            </td>
+                        </tr>
+                        <tr align="center">
+                            <td>Espanha </td>
+                            <td>Holanda </td>
+                            <td>Portugal </td>
+                            <td>Dinamarca </td>
+                            <td>Uruguai </td>
+                        </tr>
+                    </table>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer style="background-color:#333;" class="page-footer front-small blue p-3">
+        <div class="text-center">
+            <font color="white">2022 © Copyright: Equipe Java </a>
+            </font>
+        </div>
+    </footer>
+    <!--Script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
